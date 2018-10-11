@@ -1,4 +1,0 @@
-#!/bin/sh
-uci del_list dhcp.@dnsmasq[0].address='/server.moinho.local/10.5.0.1/app'
-uci add_list dhcp.@dnsmasq[0].address='/server.moinho.local/10.5.0.1/app'
-
