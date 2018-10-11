@@ -1,0 +1,5 @@
+#!/bin/sh
+
+### Adds local server do /etc/hosts
+
+echo "10.5.0.52 www" >> /etc/hosts
